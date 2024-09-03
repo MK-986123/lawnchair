@@ -62,7 +62,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: Release APK
           path: artifacts/release-apk
@@ -82,7 +82,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: Release APK
           path: artifacts/release-apk
